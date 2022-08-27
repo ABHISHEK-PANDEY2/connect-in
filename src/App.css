@@ -31,7 +31,17 @@ body {
 }
 
 .logo {
-  padding: 0 0 0 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #1db5e5;
+  font-weight: 200;
+}
+.logo span {
+  background-color: #ffffff;
+  border-radius: 40px;
+  color: #1a1b20;
 }
 
 .search {
@@ -85,7 +95,7 @@ body {
 /* side navbar */
 
 .navbar {
-  padding: 50px 0 0 10px;
+  padding: 45px 0 0 10px;
 }
 
 .navbar ul {
@@ -94,6 +104,21 @@ body {
   gap: 50px;
   list-style-type: none;
   font-size: 25px;
+}
+
+.nav-item span {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.nav-item span:hover {
+  box-sizing: border-box;
+  background-color: #22232a;
+}
+
+.nav-item:active span {
+  background-color: #22232a;
 }
 
 .navbar img {

@@ -10,7 +10,9 @@ const TopNav = () => {
   return (
     <div className="top-nav primary">
       <div className="logo">
-        <h2>Connect In</h2>
+        <h2>
+          Connect <span>In</span>
+        </h2>
       </div>
       <div className="search">
         <div className="search-input">
